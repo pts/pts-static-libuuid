@@ -556,6 +556,7 @@ fail:
 #else /* !defined(HAVE_UUIDD) && defined(HAVE_SYS_UN_H) */
 static int get_uuid_via_daemon(int op, uuid_t out, int *num)
 {
+	(void)op; (void)out; (void)num;
 	return -1;
 }
 #endif

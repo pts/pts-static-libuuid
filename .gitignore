@@ -1,0 +1,5 @@
+*.o
+libuuid.a
+*~
+DEADJOE
+core
